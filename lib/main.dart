@@ -34,21 +34,6 @@ class MyApp extends StatelessWidget {
         );
       },
     );
-    // return ChangeNotifierProvider(
-    //   create: (BuildContext context) {
-    //     return CounterProvider();
-    //   },
-    //   builder: (context, child) {
-    //     return MaterialApp(
-    //       theme: ThemeData.light(useMaterial3: true),
-    //       darkTheme: ThemeData(
-    //         brightness: Brightness.dark,
-    //         useMaterial3: true,
-    //       ),
-    //       themeMode: ThemeMode.system,
-    //       home: const HomeScreen(),
-    //     );
-    //   },
-    // );
+
   }
 }
